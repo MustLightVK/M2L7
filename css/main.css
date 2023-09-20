@@ -65,7 +65,7 @@ section{
     align-items: center;
 }
 .menu__logo{
-    background-image: url("../img/logo.png");
+    background-image: url("../img/logo.svg");
     background-size: contain;
     width: 189px;
     height: 32px;
@@ -282,11 +282,11 @@ section{
     margin-right: 5px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 9px 8px;
+    background-size: 11px 10px;
 
 }
 .checkbox__item:checked+label::before{
-    background-image: url("../img/checkbox.png");
+    background-image: url("../img/checkbox.svg");
     background-color: #1A71CE;
 }
 
@@ -313,7 +313,7 @@ section{
 
 }
 .radio__item:checked+label::before{
-    background-image: url("../img/radio.png");
+    background-image: url("../img/radio.svg");
     background-color: #1A71CE;
 }
 
@@ -334,7 +334,7 @@ section{
     border-radius: 20px;
     margin-right: 5px;
     background-color: #C2C2C2;
-    background-image: url("..//img/switch.png");
+    background-image: url("..//img/switch2.svg");
     background-repeat: no-repeat;
     background-position: 24px center;
     background-size: 17px 17px;
@@ -343,6 +343,7 @@ section{
 .button__item:checked+label::before{
     background-color: #1A71CE;
     background-position: 1px center;
+    background-image: url("..//img/switch.svg");
     
 }
 
@@ -370,6 +371,7 @@ section{
     transition: color .5s ease;
 }
 .menu__footer_color>a:hover{
-    color: #1A71CE;
+    color: white;
+    text-decoration: underline;
     transition: color .5s ease;
 }
